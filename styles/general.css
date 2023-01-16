@@ -10,5 +10,9 @@ body{
   padding-left: 100px;
   padding-right: 24px;
   background-color: rgb(250, 250, 250);
-  font-family: roboto,Arial;/*this style will be inherited
+  font-family: roboto,Arial;/*this style will be inherited*/
+}
+img:hover{
+  transform: scale(1.055);
+  transition: all 0.2s ease-in-out;
 }
